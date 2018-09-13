@@ -87,6 +87,6 @@ public interface IForgeRegistryEntry<V>
         }
 
         @Override
-        public final Class<T> getRegistryType() { return (Class<T>) token.getRawType(); };
+        public final Class<T> getRegistryType() { return (Class<T>) token.getRawType(); }
     }
 }
